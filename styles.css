@@ -1,0 +1,197 @@
+html {
+  -webkit-font-smoothing: antialiased;
+  touch-action: manipulation;
+  text-rendering: optimizelegibility;
+  text-size-adjust: 100%;
+  font-size: 62.5%;
+}
+body {
+ box-sizing: border-box;
+ font-family: 'Roboto', sans-serif;
+ text-align: center;
+}
+a:link {
+ color: rgb(32, 55, 80);
+ background-color: transparent;
+ text-decoration: none;
+}
+
+
+a:visited {
+ color: rgb(61, 61, 61);
+ background-color: transparent;
+ text-decoration: none;
+}
+
+a:hover {
+ color: rgb(181, 181, 181);
+ background-color: transparent;
+ text-decoration: overline;
+}
+
+a:active {
+ color: rgb(139, 165, 231);
+ background-color: transparent;
+ text-decoration: underline;
+}
+li{
+  list-style: none;
+}
+nav{
+ height: 75px;
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ align-items: center;
+ padding: 1em;
+ box-shadow: 0px 12px 7px -15px #111;
+
+}
+
+.nav-links{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ list-style: none;
+ text-decoration: none;
+ padding: 1em;
+ margin: 6px;
+ font-size: 2rem;
+ font-weight: 100;
+}
+
+.nav-title {
+ font-weight: 300;
+ padding:1em;
+ margin:6px;
+ font-size: 2rem;
+ text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+ nav {
+  margin: 2px;
+  font-size: 1.333333rem;
+ }
+  .nav-title {
+   font-weight: 200;
+   padding: 1em;
+   margin: 2px;
+   font-size: 2rem;
+  }
+  .nav-links{
+    font-size: 1.65rem;
+  }
+}
+
+.home{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.about{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#eduTitle{
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.bio{
+  width: 590px;
+  margin: auto;
+  font-size: 2rem;
+  text-align: left;
+}
+
+.about-img{
+  padding: 1.6em;
+  border-radius: 50%;
+}
+.about-img img{
+  border-radius: .5rem;
+}
+ .edu {
+   font-size: 1.35rem;
+   
+ }
+
+ .edu h3 {
+   font-size: 2rem;
+   font-weight: 100;
+ }
+@media only screen and (max-width: 600px) {
+  .bio{
+    width:350px;
+    font-size: 1.55rem;
+  }
+  .edu{
+    font-size: 1.1rem;
+  }
+  .edu h3{
+    font-size: 2.25rem;
+    font-weight: 100;
+  }
+    #eduTitle {
+      font-size: 1.4;
+      font-weight: 300;
+    }
+}
+ .email{
+  font-size: 4rem;
+  font-weight: 100;
+  justify-self: center;
+ }
+.social-links{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 4rem;
+  padding: 2rem;
+  margin:1em;
+}
+.social-links a{
+  padding:1rem;
+  justify-self: center;
+}
+
+.card{
+  display:flex;
+  margin:1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.projects{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-item{
+  justify-self: center;
+}
+
+@media only screen and (max-width: 1200px) {
+ .projects{
+  grid-template-columns: 1fr 1fr 1fr;
+ }
+}
+@media only screen and (max-width: 900px) {
+ .projects{
+  grid-template-columns: 1fr 1fr;
+ }
+}
+@media only screen and (max-width: 500px) {
+ .projects{
+  grid-template-columns: 1fr;
+  padding: 2rem;
+ }
+ .email{
+  font-size: 2rem;
+ }
+}
