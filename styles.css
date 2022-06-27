@@ -145,6 +145,7 @@ nav{
   font-size: 4rem;
   font-weight: 100;
   justify-self: center;
+  color: rgb(220,20,60);
  }
 .social-links{
   display: grid;
