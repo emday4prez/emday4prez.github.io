@@ -9,6 +9,7 @@ body {
  box-sizing: border-box;
  font-family: 'Roboto', sans-serif;
  text-align: center;
+ background-color: whitesmoke;
 }
 a:link {
  color: rgb(32, 55, 80);
