@@ -172,6 +172,7 @@ nav{
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-content: center;
   align-items: center;
+  background-color: #191970;
 }
 
 .grid-item{
