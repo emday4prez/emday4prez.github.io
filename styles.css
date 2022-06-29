@@ -45,6 +45,7 @@ nav{
  grid-template-columns: 1fr 1fr;
  align-items: center;
  padding: 1em;
+  padding-bottom: 3em;
  box-shadow: 0px 12px 7px -15px #111;
 
 }
