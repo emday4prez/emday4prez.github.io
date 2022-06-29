@@ -40,14 +40,13 @@ li{
   list-style: none;
 }
 nav{
- height: 75px;
- display: grid;
- grid-template-columns: 1fr 1fr;
- align-items: center;
- padding: 1em;
-  padding-bottom: 3em;
- box-shadow: 0px 12px 7px -15px #111;
-
+  height: 75px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 1em;
+  box-shadow: 0px 12px 7px -15px #111;
+  margin-bottom: 1.5em;
 }
 
 .nav-links{
